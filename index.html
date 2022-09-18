@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="uk">
 
-<head>
+<header>
     <meta charset="utf-8" />
     <meta name="description" content="Повідомлення про повітряну тривогу" />
     <h1>DANGER</h1>
-</head>
+     
+</header>
 
 <body>
     <p>
@@ -14,17 +15,47 @@
         </a>
     </p>
     <ol>
-
         <li><a href="mailto:bogdan.7biz@gmail.com">Write me an Email</li></a>
-        <li><a href="tel:++380635607314">Call me</li></a>
-        <li>Region3</li>
+        <li><a href="tel:+380635607314">Call me</li></a>
+        <li><button type="button">Region3</button> </li>
     </ol>
-    <h3>Toolbar</h3>
+   <!--Картинка з переходм на сайт-->
+    <p>Натисни на картинку щоб побачити більше зображень</p>
+    <a href="https://www.pexels.com/ru-ru/photo/bitexco-financial-tower-in-ho-chi-minh-city-13284747/" target="_blank" rel="noreferrer noopener">
+        <img src="https://images.pexels.com/photos/13284747/pexels-photo-13284747.jpeg" alt="Вулиця з будинками та офісною будівлею"
+            width="150" />
+    </a>
+    <!--Картинка без посилання з переходом на сайт де лежить файл-->
+    <p> <img src="https://images.pexels.com/photos/13284747/pexels-photo-13284747.jpeg" alt="Вулиця з будинками та офісною будівлею" width="200">
+    </p>
+    <!--Не зрозуміло залишилось звідки має підтягувати картинку сайт в разі написання такого:
+         <img src="kittens.jpg" alt="Три кошеня грають на соломі. Два сірих і один чорний."/> -->
+        
+        
+         <figure>
+          <img src="https://images.pexels.com/photos/13315272/pexels-photo-13315272.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="коричневий кухонний стіл та стільці" width="200"/>
+            <figcaption>Це фото майбутнього столу та стільців для вашої кухні</figcaption>
+        </figure>
+
+
+<!--Вставка картинки використовуючи відносний шлях-->
+        <img src="Images/logo.png" alt="Вулиця з будинками та офісною будівлею"width="150">
+        
+        
+        <h3>Toolbar</h3>
     <ul>
         <li><a href="#POST">POST</a></li>
         <li><a href="#HOST">HOST</a></li>
         <li><a href="#Guest">Guest</a></li>
     </ul>
+    <nav>
+        <!-- Навігація на інші сторінки -->
+        <ul>
+            <li><a href="/portfolio.html">Portfolio</a></li>
+            <li><a href="/conact.html">Contact</a></li>
+            <li><a href="/about.html">About</a></li>
+        </ul>
+    </nav>
     <section>
         <h3 id="POST">POST</h3>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, quod. Nulla ea nobis magnam, fuga vitae
@@ -309,7 +340,24 @@
             distinctio corporis.
         </p>
     </section>
+    <p><b>Прикол дня, відповідь на питання клієнту</b></p>
+    <main>
+<p>Олександр:- Добрий день. Підкажіть будь ласка, де можна поміняти держак для лопати?</p>
+<p>Сергій:- Поміняти держак ви можете де завгодно - вдома, на свіжому повітрі, біля магазину або навіть на зупинці. Для цього
+        потрібно десь придбати друга Буратіно на приклад в Буд центрі напроти Фори. Цвяха на дорозі знайти і каменем прибить
+        лопату до держака.</p></main>
+<footer>
+    <!-- Копірайт -->
+    <p>Всі права захищені &copy;lpj.dev</p>
 
+    <!-- Посилання на соцмережі -->
+    <p><b>Підпишіться на наші соціальні мережі</b></p>
+    <ul>
+        <li><a href="https://www.facebook.com/profile.php?id=100019374614048" target="_blank" rel="noreferrer noopener">Facebook</a></li>
+        <li><a href="https://twitter.com/?lang=uk"target="_blank" rel="noreferrer noopener">Twitter</a></li>
+        <li><a href="https://www.instagram.com/"target="_blank" rel="noreferrer noopener">Instagram</a></li>
+    </ul>
+</footer>
 </body>
 
 </html>
